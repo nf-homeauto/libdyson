@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.1
+
+- Updated regex
+
 ## 0.9.0
 
 - Started nf-homeauto fork
