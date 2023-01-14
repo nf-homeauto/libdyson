@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.9.0
+
+- Started nf-homeauto fork
+- Added Dockerfile to better handle dependency install
+- Added support for 525K - Dyson Pure Hot+Cool Formaldehyde
+
+## 0.8.11
+
+- Changed user agent, should fix further Dyson cloud connection problems
+
+## 0.8.10
+
+- Add support for new Dyson 360 Eye WiFi SSID by @dcasado in #18
+- Support Purifier Humidify+Cool Formaldehyde by @vwt12eh8 in #19
+- Use device_type to fetch Device Type Name by @aashays in #17
+
 ## 0.8.9
 
 - Fixed cloud identification support
