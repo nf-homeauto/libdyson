@@ -108,3 +108,7 @@ class DysonPurifierHumidifyCoolFormaldehyde(DysonPureHumidifyCool):
     def formaldehyde(self):
         """Return formaldehyde reading."""
         return int(self._get_environmental_field_value("hcho"))
+
+class DysonPurifierHumidifyCoolCryptomic(DysonPurifierHumidifyCoolFormaldehyde):
+    """Dyson Pure Humidify+Cool Cryptomic device."""
+

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.2
+
+- Adding Pure Humidify+Cool Cryptomic
+
 ## 0.9.1
 
 - Updated regex

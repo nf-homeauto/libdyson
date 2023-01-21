@@ -15,6 +15,7 @@ from libdyson import (
     DEVICE_TYPE_PURE_HOT_COOL_NEW,
     DEVICE_TYPE_PURE_HOT_COOL_LINK,
     DEVICE_TYPE_PURE_HUMIDIFY_COOL,
+    DEVICE_TYPE_PURE_HUMIDIFY_COOL_CRYPTOMIC,
     DEVICE_TYPE_PURIFIER_HUMIDIFY_COOL_FORMALDEHYDE,
     Dyson360Eye,
     Dyson360Heurist,
@@ -25,6 +26,7 @@ from libdyson import (
     DysonPureHotCool,
     DysonPureHotCoolLink,
     DysonPureHumidifyCool,
+    DysonPurifierHumidifyCoolCryptomic,
     DysonPurifierHumidifyCoolFormaldehyde,
     get_device,
 )
@@ -46,6 +48,7 @@ from . import CREDENTIAL, SERIAL
         (DEVICE_TYPE_PURE_HOT_COOL, DysonPureHotCool),
         (DEVICE_TYPE_PURE_HOT_COOL_NEW, DysonPureHotCool),
         (DEVICE_TYPE_PURE_HUMIDIFY_COOL, DysonPureHumidifyCool),
+        (DEVICE_TYPE_PURE_HUMIDIFY_COOL_CRYPTOMIC, DysonPurifierHumidifyCoolCryptomic),
         (DEVICE_TYPE_PURIFIER_HUMIDIFY_COOL_FORMALDEHYDE, DysonPurifierHumidifyCoolFormaldehyde),
     ],
 )
